@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://invalid-site.com",
+    "status": "DOWN"
+  },
+  {
+    "url": "https://github.com",
+    "status": "UP",
+    "code": 200,
+    "latency": "137ms"
+  },
+  {
+    "url": "https://google.com",
+    "status": "UP",
+    "code": 200,
+    "latency": "461ms"
+  }
+]
