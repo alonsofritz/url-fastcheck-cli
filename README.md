@@ -1,4 +1,4 @@
-# FastCheck - Website Health Monitor
+# FastCheck - Website Health Check
 
 ![Go](https://img.shields.io/badge/Go-1.21+-00ADD8?logo=go)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -35,6 +35,7 @@ Advanced options:
 ```
 
 ## Sample Output
+![fastcheck-results](https://github.com/user-attachments/assets/76a72040-d9c9-4912-af76-ab393496f586)
 
 ## Tech Stack
 - Concurrency: Goroutines + WaitGroup
