@@ -42,3 +42,9 @@ Advanced options:
 - Networking: net/http, crypto/tls
 - CLI: flag package
 - Data: JSON encoding
+
+
+## Melhorias
+- Em produção, use o conjunto de workers (por exemplo, semaphore.Weighted) (Implementar WorkerPool)
+- Cache de DNS: Implemente um resolvedor personalizado para verificações repetidas
+- Pool de Conexões: Reutilize clientes HTTP com http.Transport
