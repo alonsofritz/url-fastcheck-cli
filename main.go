@@ -31,12 +31,16 @@ func checkSSL(url string) bool {
 	conn, err := tls.Dial("tcp", url+":443", &tls.Config{
 		ServerName:         url,   // Verifica se o certificado pertence a este domínio
 		InsecureSkipVerify: false, // (padrão) → ativa verificação
+		// InsecureSkipVerify: true, // (dev/test) → desativa verificação
 	})
 	if err != nil {
 		return false
 	}
 	defer conn.Close()
-	return true
+
+	cert := conn.ConnectionState().PeerCertificates[0]
+	err = cert.VerifyHostname(url)
+	return err == nil
 }
 
 func checkURL(url string, timeout int, checkSSLFlag bool, wg *sync.WaitGroup, results chan<- Result) {

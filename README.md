@@ -37,9 +37,8 @@ Advanced options:
 ## Sample Output
 ![fastcheck-results](https://github.com/user-attachments/assets/76a72040-d9c9-4912-af76-ab393496f586)
 
-## Tech Stack
+## Stack
 - Concurrency: Goroutines + WaitGroup
 - Networking: net/http, crypto/tls
 - CLI: flag package
 - Data: JSON encoding
-
