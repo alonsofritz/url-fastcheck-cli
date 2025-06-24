@@ -1,6 +1,6 @@
 # FastCheck - Website Health Check
 
-![Go](https://img.shields.io/badge/Go-1.21+-00ADD8?logo=go)
+![Go](https://img.shields.io/badge/Go-1.23+-00ADD8?logo=go)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 CLI tool to concurrently check website availability with SSL verification and latency measurement.
