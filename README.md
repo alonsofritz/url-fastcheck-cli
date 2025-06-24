@@ -44,7 +44,7 @@ Advanced options:
 - Data: JSON encoding
 
 
-## Melhorias
-- Em produção, use o conjunto de workers (por exemplo, semaphore.Weighted) (Implementar WorkerPool)
-- Cache de DNS: Implemente um resolvedor personalizado para verificações repetidas
-- Pool de Conexões: Reutilize clientes HTTP com http.Transport
+## Improvements
+- In production, use a worker pool (e.g., semaphore.Weighted) (Implement WorkerPool)
+- DNS Cache: Implement a custom resolver for repeated lookups
+- Connection Pooling: Reuse HTTP clients using http.Transport
