@@ -6,12 +6,12 @@ CLI tool to concurrently check website availability with SSL verification and la
 
 ## Features
 
-- ✅ Concurrent status checks (goroutines)
-- 🌐 HTTP/HTTPS support with custom timeout
-- 🔒 SSL certificate validation
-- ⏱️ Response latency measurement
-- 📊 JSON export for automation
-- 🎨 Color-coded terminal output
+- Concurrent status checks (goroutines)
+- HTTP/HTTPS support with custom timeout
+- SSL certificate validation
+- Response latency measurement
+- JSON export for automation
+- Color-coded terminal output
 
 ## Installation
 
